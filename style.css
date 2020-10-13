@@ -12,11 +12,14 @@ font-family: 'Shadows Into Light', cursive;
 color: rgba(0, 0, 0, 0.972)
 
 }
-.navLink{
-    color: rgb(0, 0, 0)
+.navLink, #navLink {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 700;
 }
-.navLink:hover{
-    color: rgb(0, 0, 0)
+.navLink:hover, #navLink:hover{
+    color: rgb(0, 0, 0);
+    font-size: 2rem
 }
 
 #name{
@@ -67,10 +70,40 @@ nav{
 filter: blur(.3px); */
 opacity: 0.7;
 }
-/* .logo{
-    background-image: url(assets/Lizz\ West\ Logo.gif);
+.logo{
+    /* background-image: url(assets/Lizz\ West\ Logo.gif); */
     text-align: center;
     height: 500px;
     width: 500px;
     align-self: center;
+    margin-right: 15rem;
+}
+/* .projects{
+    width: 50vw;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    align-items: center;
 } */
+.projects{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    
+}
+#card{
+    border: 10px rgba(8, 8, 8, 0) solid;
+    border-radius: 5%;
+    background-color: rgba(204, 23, 23, 0);
+    
+}
+#project-link{
+    color: black;
+    background-color: rgba(0, 0, 0, 0)
+}
+.col{
+    background-color: rgba(0, 0, 0, 0)
+
+}

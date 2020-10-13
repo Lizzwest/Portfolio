@@ -14,11 +14,13 @@
 
 </head>
 <body>
+  
   <div class="container">
     <nav>
         <div class="nav-wrapper black">
-          <a href="#" class="brand-logo right" id="name">Lizz West</a>
-          <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <a href="#" class="brand-logo center" id="name">Lizz West</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a class="navLink" href="https://github.com/Lizzwest"><img src="assets/icons8-github-48.png"></a></li>
             <li><a class="navLink" href="https://www.linkedin.com/in/lizzwest/"><img src="assets/icons8-linkedin-48.png"></a></li>
             <li><a class="navLink" href="mailto:lizzwestdev@gmail.com"><img src="assets/icons8-email-48.png"></a></li>
@@ -27,10 +29,17 @@
           </ul>
 
         </div>
+        
         <!-- <div class="logo">
           
         </div> -->
       </nav>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a class="navLink" href="https://github.com/Lizzwest"></a>1</li>
+            <li><a class="navLink" href="https://www.linkedin.com/in/lizzwest/"><img src="assets/icons8-linkedin-48.png">2</a></li>
+            <li><a class="navLink" href="mailto:lizzwestdev@gmail.com"><img src="assets/icons8-email-48.png"></a>3</li>
+      </ul>
+      <!-- <img class="logo" src="assets/Lizz West Logo.gif" alt="" > -->
     <!-- <h1> Lizz West</h1>
     <h4> I am a full-stack developer, with a proclivity for the front-end. I have experience with: </h4>
     <ul>
@@ -43,17 +52,47 @@
       <li>MongoDB/Mongoose</li>
       <li>PostgresQL/Sequelize</li> -->
     </ul>
+
     <br>
     <br>
     <br>
     <br>
     <h2>Projects</h2>
-    
-    <ul>
-      <li><a href="https://smacks-n-snacks.herokuapp.com">Smacks 'n Snacks</a></li>
-      <li><a href="https://garccade.herokuapp.com/">GArcade</a></li>
-      <li><a href="https://offtheshelff.herokuapp.com/">Off The Shelf</a></li>
-    </ul>
+    <div class="row">
+      <div class="col s3 m4">
+        <div class="card" id="card">
+          <div class="card-image">
+            <img src="assets/smacksnsnacks.png">
+            
+          </div>
+          <div id ="project-link">
+            <a class="navLink" id="navLink" href="https://smacks-n-snacks.herokuapp.com">Smacks 'n Snacks</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s3 m4">
+        <div class="card" id="card">
+          <div class="card-image">
+            <img src="assets/garcade.png">
+            
+          </div>
+          <div id ="project-link">
+            <a class="navLink" id="navLink" href="https://garccade.herokuapp.com/">GArcade</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s3 m4">
+        <div class="card" id="card">
+          <div class="card-image">
+            <img src="assets/offtheshelf.png">
+          </div>
+          <div id ="project-link">
+            <a class="navLink" id="navLink" href="https://offtheshelff.herokuapp.com/">Off The Shelf</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
     <br>
     <br>
     <br>
